@@ -1,0 +1,19 @@
+
+#Eine grosse gitignore file
+
+index.sublime-workspace
+config/main_config_1.php
+.idea
+dashboard/
+img/module_table_bottom.png
+img/module_table_top.png
+xampp/
+composer.json
+composer.lock
+vendor
+.phpunit.result.cache
+launch.json
+UnitTestResults
+phpunitResults.txt
+phpinfo.php
+Bestellungen

@@ -1,0 +1,495 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+}
+
+/* .row {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+} */
+
+.container {
+    max-width: 100%;
+
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.bigger{
+    max-width: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.card {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin: 10px 0 0 0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-clip: padding-box;
+    background-color: transparent;
+}
+
+.card25 {
+    margin: 10px 1% 0 1%;
+    max-width: 23% !important;
+}
+
+.card span.card-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.card .card-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.card .card-image img {
+    border-radius: 2px 2px 0 0;
+    background-clip: padding-box;
+    position: relative;
+    z-index: -1;
+}
+
+.card .card-image span.card-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 16px;
+}
+
+.card .card-content {
+    padding: 16px;
+    border-radius: 0 0 2px 2px;
+    background-clip: padding-box;
+    box-sizing: border-box;
+}
+
+.card .card-content p {
+    margin: 0;
+    color: inherit;
+}
+
+.card .card-content span.card-title {
+    line-height: 48px;
+}
+
+.card .card-action {
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    padding: 16px;
+}
+
+.card .card-action a {
+    color: #ffab40;
+    margin-right: 16px;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.card .card-action a:hover {
+    color: #ffd8a6;
+    text-decoration: none;
+}
+
+.carousel-inner {
+    background: #000;
+}
+
+.ButtonMitte {
+    margin: auto auto;
+    width: 300px;
+    text-align: center;
+}
+
+.btn-shadow {
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.16), 0 3px 10px 0 rgba(0, 0, 0, 0.20);
+}
+
+.ButtonRahmen {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.smallrow {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.wrapper {
+    /* width: 70vw; */
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+.center{
+  text-align: center;
+  margin: auto auto;
+}
+
+select {
+    padding: 10px;
+}
+
+.flycenter {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.FooterSpace {
+    padding-bottom: 200px;
+}
+
+.GenreRahmen {
+    text-align: center;
+    box-shadow: 0 1px 3px 0 rgba(37, 37, 37, 0.16), 0 1px 5px 0 rgba(49, 49, 49, 0.12);
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: rgb(112, 112, 112);
+    border-style: solid;
+    background-color: transparent;
+    background-clip: padding-box;
+    box-sizing: border-box;
+    margin: 5px;
+    padding-left: 17px;
+    padding-right: 17px;
+    display: inline-block;
+}
+
+.FilmsucheBild {
+    width: 100%;
+    margin: auto auto;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.FilmdetailsButton {
+    margin: auto auto;
+    width: 200px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.filmtitel{
+  height: 100px;
+}
+
+.shadow {
+    box-shadow: 0 1px 3px 0 rgba(37, 37, 37, 0.16), 0 1px 5px 0 rgba(49, 49, 49, 0.12);
+}
+
+.BeschreibungFilmdetail {
+    display: inline;
+}
+
+.margintop {
+    margin-top: 10px;
+}
+
+.checked {
+    color: orange;
+}
+
+.VorstellungRahmen {
+    border-radius: 0px;
+    border-width: 1px;
+    border-color: rgb(36, 36, 36);
+    border-bottom-style: solid;
+    margin-top: 5px;
+}
+
+.WarenkorbRahmen {
+    border-radius: 0px;
+    border-width: 2px;
+    border-color: rgb(53, 53, 53);
+    border-bottom-style: solid;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 3px 0 rgba(37, 37, 37, 0.16), 0 1px 5px 0 rgba(49, 49, 49, 0.12);
+}
+
+.WarenkorbdoppelRahmen {
+  border-radius: 0px;
+  border-width: 2px;
+  border-color: rgb(53, 53, 53);
+  border-bottom-style: solid;
+  box-shadow: 0 1px 3px 0 rgba(37, 37, 37, 0.16), 0 1px 5px 0 rgba(49, 49, 49, 0.12);
+}
+
+.WarenkorbRahmenunten {
+    border-radius: 0px;
+    border-width: 2px;
+    border-color: rgb(53, 53, 53);
+    border-bottom-style: solid;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    box-shadow: 0 1px 3px 0 rgba(37, 37, 37, 0.16), 0 1px 5px 0 rgba(49, 49, 49, 0.12);
+}
+
+.crop{
+  overflow:hidden;
+  height:200px;
+}​
+
+
+
+.BestellText {
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+.left{
+  text-align: left;
+}
+
+.Sitzreihe{
+list-style-type: none;
+}
+
+.Leinwand{
+  width: 40%;
+  margin: auto;
+  margin-bottom: 40px;
+  border-width: 3px;
+  border-color: rgb(97, 97, 97);
+  border-bottom-style: solid;
+  box-shadow: 0 1px 3px 0 rgba(117, 117, 117, 0.16), 0 1px 5px 0 rgba(49, 49, 49, 0.12);
+}
+
+.Saal {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-width: 1px;
+  border-color: rgb(97, 97, 97);
+  border-style: solid;
+  box-shadow: 0 1px 3px 0 rgba(117, 117, 117, 0.16), 0 1px 5px 0 rgba(49, 49, 49, 0.12);
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.Sitze {
+  display: flex;
+  margin-bottom: 0px;
+  margin-left: -20px;
+  margin-right: 20px;
+}
+
+.Sitz {
+  display: flex;
+  padding: 5px;
+  position: relative;
+}
+.Sitz input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+.Sitz input[type="checkbox"]:checked + label {
+  background: rgb(2, 117, 216);
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
+  animation-duration: 300ms;
+  animation-fill-mode: both;
+}
+.Sitz input[type="checkbox"]:disabled + label {
+  background: #dddddd;
+  /* text-indent: -9999px; */
+  overflow: hidden;
+}
+
+.Sitz input[type="checkbox"]:disabled + label:hover {
+  box-shadow: none;
+  cursor: not-allowed;
+}
+.Sitz label {
+  display: block;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  padding: 4px 0;
+  border-radius: 5px;
+  animation-duration: 300ms;
+  animation-fill-mode: both;
+}
+
+.loge label {
+  background: rgb(226, 185, 73);
+}
+
+.normal label {
+  background: rgb(92, 184, 92);
+}
+
+.Sitz label:before {
+  content: "";
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  top: 2px;
+  left: 49%;
+  transform: translate(-50%, 0%);
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+}
+.Sitz label:hover {
+  cursor: pointer;
+  box-shadow: 0 0 0px 2px rgb(247, 247, 247);
+}
+
+.PremiumSitz {
+  display: flex;
+  padding: 5px;
+  position: relative;
+}
+.PremiumSitz input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+}
+.PremiumSitz input[type="checkbox"]:checked + label {
+  background: rgb(1, 45, 83);
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
+  animation-duration: 300ms;
+  animation-fill-mode: both;
+}
+.PremiumSitz input[type="checkbox"]:disabled + label {
+  background: #dddddd;
+  /* text-indent: -9999px; */
+  overflow: hidden;
+}
+
+.PremiumSitz input[type="checkbox"]:disabled + label:hover {
+  box-shadow: none;
+  cursor: not-allowed;
+}
+.PremiumSitz label {
+  display: block;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  padding: 4px 0;
+  background: rgb(5, 77, 5);
+  border-radius: 5px;
+  animation-duration: 300ms;
+  animation-fill-mode: both;
+}
+.PremiumSitz label:before {
+  content: "";
+  position: absolute;
+  width: 75%;
+  height: 75%;
+  top: 2px;
+  left: 49%;
+  transform: translate(-50%, 0%);
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+}
+.PremiumSitz label:hover {
+  cursor: pointer;
+  box-shadow: 0 0 0px 2px rgb(247, 247, 247);
+}
+
+
+
+
+
+@-webkit-keyframes rubberBand {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes rubberBand {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+.rubberBand {
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
+}
+#usernamebox{
+    color: #ffffff;
+    padding-right: 10px;
+}
+
+
+
